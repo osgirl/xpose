@@ -1,5 +1,6 @@
 # taken from ggforce directly to remove heavy dependency
 # chain ggforce introduces
+# links available at https://github.com/thomasp85/ggforce
 
 
 ## utils

@@ -37,7 +37,13 @@ Authors@R: c(
       person('Pharmetheus', 
              role  = 'ctb',
              email = 'info@pharmetheus.com'),
-      person('Pfizer', role = 'ctb'))
+      person('Pfizer', role = 'ctb'),
+      person('Thomas Lin', 'Pedersen', 
+             role = 'ctb', 
+             email = 'thomasp85@gmail.com'),
+      person('Devin', 'Pastoor', 
+             role = 'ctb',
+             email = 'devin.pastoor@gmail.com'))
 Description: Diagnostics for non-linear mixed-effects (population) 
     models from 'NONMEM' <http://www.iconplc.com/innovation/nonmem/>. 
     'xpose' facilitates data import, creation of numerical run summary 
