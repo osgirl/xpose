@@ -50,6 +50,7 @@ Imports:
   dplyr (>= 0.7.0),
   grDevices,
   gridExtra,
+  gtable,
   purrr (>= 0.2.0),
   readr,
   rlang (>= 0.1.2),
