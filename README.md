@@ -1,4 +1,11 @@
 
+NOTE ABOUT FORK
+---------------
+
+-   This repo serves as a compatability fork for the time being to support R versions &lt; 3.3. The intent is to promote and collaborate with the main repo until the organization infrastructure moves to a more modern version of R.
+
+-   software-specific bugs should still be reported on the main issue tracker here - <https://github.com/UUPharmacometrics/xpose/issues>
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 xpose <a href="https://UUPharmacometrics.github.io/xpose/"><img src="man/figures/logo.png" align="right" /></a>
 ===============================================================================================================
