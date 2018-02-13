@@ -39,6 +39,8 @@ Other contributors:
   \item Elodie Plan \email{elodie.plan@pharmetheus.com} [contributor]
   \item Pharmetheus \email{info@pharmetheus.com} [contributor]
   \item Pfizer [contributor]
+  \item Thomas Lin Pedersen \email{thomasp85@gmail.com} [contributor]
+  \item Devin Pastoor \email{devin.pastoor@gmail.com} [contributor]
 }
 
 }

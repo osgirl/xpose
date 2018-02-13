@@ -1,11 +1,7 @@
 Package: xpose
 Type: Package
 Title: Diagnostics for Pharmacometric Models
-<<<<<<< HEAD
-Version: 0.4.0.9000
-=======
-Version: 0.4.2
->>>>>>> 8c4fd6ae139302af69355a38942c479c9832942c
+Version: 0.4.2.9000
 Authors@R: c(
       person('Benjamin', 'Guiastrennec',
              role  = c('aut', 'cre', 'cph'),
@@ -59,11 +55,8 @@ Depends:
 Imports:
   dplyr (>= 0.7.0),
   grDevices,
-<<<<<<< HEAD
   gridExtra,
   gtable,
-=======
->>>>>>> 8c4fd6ae139302af69355a38942c479c9832942c
   purrr (>= 0.2.0),
   readr,
   rlang (>= 0.1.2),
