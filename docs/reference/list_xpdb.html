@@ -159,27 +159,27 @@
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='co'># List output tables data</span>
 <span class='fu'>list_data</span>(<span class='no'>xpdb_ex_pk</span>)</div><div class='output co'>#&gt; Data:
-#&gt;   problem simtab                   data modified
-#&gt;     &lt;int&gt;  &lt;lgl&gt;                 &lt;list&gt;    &lt;lgl&gt;
-#&gt; 1       1  FALSE    &lt;tibble [550 x 31]&gt;    FALSE
-#&gt; 2       2   TRUE &lt;tibble [11,000 x 12]&gt;    FALSE</div><div class='input'>
+#&gt;   problem simtab data                   modified
+#&gt;     &lt;int&gt; &lt;lgl&gt;  &lt;list&gt;                 &lt;lgl&gt;   
+#&gt; 1       1 F      &lt;tibble [550 × 31]&gt;    F       
+#&gt; 2       2 T      &lt;tibble [11,000 × 12]&gt; F       </div><div class='input'>
 <span class='co'># List output files data</span>
 <span class='fu'>list_files</span>(<span class='no'>xpdb_ex_pk</span>)</div><div class='output co'>#&gt; Files:
-#&gt;         name extension problem subprob method               data modified
-#&gt;        &lt;chr&gt;     &lt;chr&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;chr&gt;             &lt;list&gt;    &lt;lgl&gt;
-#&gt; 1 run001.cor       cor       1       0   foce &lt;tibble [14 x 15]&gt;    FALSE
-#&gt; 2 run001.cov       cov       1       0   foce &lt;tibble [14 x 15]&gt;    FALSE
-#&gt; 3 run001.ext       ext       1       0   foce &lt;tibble [28 x 16]&gt;    FALSE
-#&gt; 4 run001.grd       grd       1       0   foce &lt;tibble [21 x 11]&gt;    FALSE
-#&gt; 5 run001.phi       phi       1       0   foce &lt;tibble [74 x 12]&gt;    FALSE
-#&gt; 6 run001.shk       shk       1       0   foce   &lt;tibble [7 x 5]&gt;    FALSE</div><div class='input'>
+#&gt;   name       extension problem subprob method data               modified
+#&gt;   &lt;chr&gt;      &lt;chr&gt;       &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;  &lt;list&gt;             &lt;lgl&gt;   
+#&gt; 1 run001.cor cor          1.00       0 foce   &lt;tibble [14 × 15]&gt; F       
+#&gt; 2 run001.cov cov          1.00       0 foce   &lt;tibble [14 × 15]&gt; F       
+#&gt; 3 run001.ext ext          1.00       0 foce   &lt;tibble [28 × 16]&gt; F       
+#&gt; 4 run001.grd grd          1.00       0 foce   &lt;tibble [21 × 11]&gt; F       
+#&gt; 5 run001.phi phi          1.00       0 foce   &lt;tibble [74 × 12]&gt; F       
+#&gt; 6 run001.shk shk          1.00       0 foce   &lt;tibble [7 × 5]&gt;   F       </div><div class='input'>
 <span class='co'># List special data</span>
 <span class='no'>xpdb_ex_pk</span> <span class='kw'>%&gt;%</span>
 <span class='fu'><a href='vpc_data.html'>vpc_data</a></span>(<span class='kw'>quiet</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>) <span class='kw'>%&gt;%</span>
 <span class='fu'>list_special</span>()</div><div class='output co'>#&gt; Specials:
-#&gt;   problem method       type        data modified
-#&gt;     &lt;dbl&gt;  &lt;chr&gt;      &lt;chr&gt;      &lt;list&gt;    &lt;lgl&gt;
-#&gt; 1       3    vpc continuous &lt;list [20]&gt;    FALSE</div><div class='input'>
+#&gt;   problem method type       data        modified
+#&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;      &lt;list&gt;      &lt;lgl&gt;   
+#&gt; 1    3.00 vpc    continuous &lt;list [19]&gt; F       </div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
